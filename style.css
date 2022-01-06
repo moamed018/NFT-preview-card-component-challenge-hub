@@ -18,6 +18,34 @@ body {
     font-size: 18;
     font-family: Outfit , sans-serif;
 }
+/* top section */
+.top {
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    position: absolute;
+    text-align: center;
+    padding: 5px 20px;
+    top: 55px;
+    left: -90px;
+    transform: rotate(-45deg);
+    z-index: 8888;
+}
+.top a {
+    text-decoration: none;
+    color: var(--Soft-blue);
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.top a span {
+    display: block;
+    color: var(--Cyan);
+}
+.top:hover span {
+    color: white;
+}
+.top:hover a {
+    color: var(--Cyan);
+}
 .card {
     width: 350px;
     background-color: hsl(216, 50%, 16%);
